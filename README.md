@@ -19,15 +19,15 @@ Testing the API using Swagger UI.
 YouTube Video Link
 
 ### How the Mobile App Works
-Launch the app.
-Enter the wine feature values in the input fields:
-Fixed Acidity
-Volatile Acidity
-Citric Acid
-Alcohol
-Residual Sugar
-pH
-Press the "Predict" button.
+- Launch the app.
+- Enter the wine feature values in the input fields:
+- Fixed Acidity
+- Volatile Acidity
+- Citric Acid
+- Alcohol
+- Residual Sugar
+- pH
+- Press the "Predict" button.
 View the predicted wine quality displayed below the button.
 The app interacts with the API hosted at https://winequality-ewyy.onrender.com/predict, sending the input values and receiving predictions in real-time.
 

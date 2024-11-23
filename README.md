@@ -1,43 +1,33 @@
-# **Wine Quality Predictor**
+# Wine Quality Prediction API and Mobile App
 
-## **Overview**
-This project is a Wine Quality Predictor that uses a machine learning model to predict wine quality based on various input features. It consists of:  
-1. A mobile app for user interaction.  
-2. A REST API built with FastAPI to process predictions.  
-3. A video demonstration of the app and API in action.
+## Overview
 
----
+This project includes a mobile app and a FastAPI backend that predicts wine quality based on input features. The app interacts with a publicly hosted API to provide real-time predictions.
 
-## **Public API Endpoint**
-The API is hosted on a publicly routable URL and accepts input values for wine features to return predictions.
+### 
 
-### **API URL**:  
-[https://winequality-ewyy.onrender.com/docs](https://winequality-ewyy.onrender.com/docs)
+## Publicly Available API Endpoint
 
-You can test the API using Swagger UI by providing the following input values:  
-- `fixed_acidity`  
-- `volatile_acidity`  
-- `citric_acid`  
-- `alcohol`  
-- `residual_sugar`  
-- `pH`  
+The API is hosted at:
+[https://winequality-ewyy.onrender.com/predict](https://winequality-ewyy.onrender.com/predict)
 
-### **/predict Endpoint**
-The `/predict` endpoint accepts these inputs in JSON format and returns the predicted wine quality.
-
-#### **Example Request**:
-```json
-{
-  "fixed_acidity": 7.4,
-  "volatile_acidity": 0.7,
-  "citric_acid": 0.0,
-  "alcohol": 9.4,
-  "residual_sugar": 1.9,
-  "pH": 3.51
-}
-
-# YouTube Video Demo
+### YouTube Video Demo
 Watch the video demonstration showcasing:
 
 The mobile app predicting wine quality.
 Testing the API using Swagger UI.
+YouTube Video Link
+
+### How the Mobile App Works
+Launch the app.
+Enter the wine feature values in the input fields:
+Fixed Acidity
+Volatile Acidity
+Citric Acid
+Alcohol
+Residual Sugar
+pH
+Press the "Predict" button.
+View the predicted wine quality displayed below the button.
+The app interacts with the API hosted at https://winequality-ewyy.onrender.com/predict, sending the input values and receiving predictions in real-time.
+

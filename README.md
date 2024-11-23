@@ -2,7 +2,8 @@
 
 ## Overview
 
-This project includes a mobile app and a FastAPI backend that predicts wine quality based on input features. The app interacts with a publicly hosted API to provide real-time predictions.
+This project includes a mobile app and a FastAPI backend that predicts wine quality based on input features. 
+The app interacts with a publicly hosted API to provide real-time predictions.
 
 ### 
 
@@ -28,6 +29,7 @@ YouTube Video Link
 - Residual Sugar
 - pH
 - Press the "Predict" button.
+
 View the predicted wine quality displayed below the button.
 The app interacts with the API hosted at https://winequality-ewyy.onrender.com/predict, sending the input values and receiving predictions in real-time.
 

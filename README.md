@@ -15,9 +15,11 @@ The API is hosted at:
 ### YouTube Video Demo
 Watch the video demonstration showcasing:
 
-The mobile app predicting wine quality.
-Testing the API using Swagger UI.
-YouTube Video Link
+- The mobile app predicting wine quality.
+
+- Testing the API using Swagger UI.
+
+YouTube Video Link: https://youtu.be/QZSwssfpYS0
 
 ### How the Mobile App Works
 - Launch the app.
